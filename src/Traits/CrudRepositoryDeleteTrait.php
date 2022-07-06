@@ -2,7 +2,7 @@
 
 namespace ZnCore\Repository\Traits;
 
-use ZnCore\Domain\Domain\Enums\EventEnum;
+use ZnCore\Domain\Enums\EventEnum;
 
 trait CrudRepositoryDeleteTrait
 {

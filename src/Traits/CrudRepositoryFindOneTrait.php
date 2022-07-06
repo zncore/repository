@@ -4,7 +4,7 @@ namespace ZnCore\Repository\Traits;
 
 use ZnCore\Text\Helpers\Inflector;
 use ZnCore\Contract\Common\Exceptions\InvalidMethodParameterException;
-use ZnCore\Domain\Domain\Enums\EventEnum;
+use ZnCore\Domain\Enums\EventEnum;
 use ZnCore\Entity\Exceptions\AlreadyExistsException;
 use ZnCore\Entity\Exceptions\NotFoundException;
 use ZnCore\Entity\Helpers\EntityHelper;
