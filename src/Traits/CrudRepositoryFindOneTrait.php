@@ -11,7 +11,7 @@ use ZnCore\Entity\Helpers\EntityHelper;
 use ZnCore\Entity\Interfaces\EntityIdInterface;
 use ZnCore\Entity\Interfaces\UniqueInterface;
 use ZnCore\Query\Entities\Query;
-use ZnLib\Components\I18Next\Facades\I18Next;
+use ZnLib\I18Next\Facades\I18Next;
 
 trait CrudRepositoryFindOneTrait
 {
