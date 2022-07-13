@@ -20,7 +20,7 @@ interface MapperInterface extends EncoderInterface
 
     /**
      * Маппинг атрибутов хранилище -> сущность
-     * 
+     *
      * @param array $rowAttributes Массив атрибутов записи из БД
      * @return array
      */

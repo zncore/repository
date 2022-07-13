@@ -3,12 +3,12 @@
 namespace ZnCore\Repository\Traits;
 
 use ZnCore\Arr\Helpers\ArrayHelper;
-use ZnCore\Instance\Helpers\ClassHelper;
-use ZnCore\Text\Helpers\Inflector;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Collection\Libs\Collection;
 use ZnCore\Entity\Helpers\EntityHelper;
 use ZnCore\Entity\Interfaces\EntityIdInterface;
+use ZnCore\Instance\Helpers\ClassHelper;
+use ZnCore\Text\Helpers\Inflector;
 use ZnLib\Components\Format\Encoders\ChainEncoder;
 
 trait RepositoryMapperTrait

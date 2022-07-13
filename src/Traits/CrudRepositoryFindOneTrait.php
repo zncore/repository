@@ -2,7 +2,6 @@
 
 namespace ZnCore\Repository\Traits;
 
-use ZnCore\Text\Helpers\Inflector;
 use ZnCore\Contract\Common\Exceptions\InvalidMethodParameterException;
 use ZnCore\Domain\Enums\EventEnum;
 use ZnCore\Entity\Exceptions\AlreadyExistsException;
@@ -11,6 +10,7 @@ use ZnCore\Entity\Helpers\EntityHelper;
 use ZnCore\Entity\Interfaces\EntityIdInterface;
 use ZnCore\Entity\Interfaces\UniqueInterface;
 use ZnCore\Query\Entities\Query;
+use ZnCore\Text\Helpers\Inflector;
 use ZnLib\I18Next\Facades\I18Next;
 
 trait CrudRepositoryFindOneTrait

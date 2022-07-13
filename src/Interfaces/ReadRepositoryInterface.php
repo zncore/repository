@@ -2,7 +2,6 @@
 
 namespace ZnCore\Repository\Interfaces;
 
-use ZnCore\Repository\Interfaces\RepositoryInterface;
 use ZnCore\Domain\Interfaces\GetEntityClassInterface;
 use ZnCore\Domain\Interfaces\ReadAllInterface;
 

@@ -2,10 +2,10 @@
 
 namespace ZnCore\Repository\Helpers;
 
-use ZnCore\Text\Helpers\Inflector;
 use ZnCore\Entity\Helpers\EntityHelper;
 use ZnCore\Entity\Interfaces\UniqueInterface;
 use ZnCore\Query\Entities\Query;
+use ZnCore\Text\Helpers\Inflector;
 
 class RepositoryUniqueHelper
 {
